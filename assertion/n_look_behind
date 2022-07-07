@@ -1,0 +1,3 @@
+const regexp = /(?<![\-\d])\d+/g;
+const str = "123 -456 78 -90 0";
+console.log(str.match(regexp));
